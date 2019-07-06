@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         ((BottomNavigationView) findViewById(R.id.navigation)).setOnNavigationItemSelectedListener(this);
         ((BottomNavigationView) findViewById(R.id.navigation)).setSelectedItemId(R.id.navigation_home);
 
+
     }
 
     @Override
